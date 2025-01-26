@@ -3,7 +3,9 @@ import os
 import requests
 from tqdm import tqdm
 
+# Replace with your download location
 download_loc = "/Volumes/MyPassport/Data"
+# Replace with your Results Export from NRCAN OpenData SAR RADSAT1 Search 
 csv_file_path = "Results.csv"
 
 dataframe = pd.read_csv(csv_file_path)
